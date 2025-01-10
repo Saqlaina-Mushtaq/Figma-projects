@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: Potta-One;
+    src: url(/fonts/PottaOne-Regular.ttf);
+  }
+ @font-face {
+  font-family: Inter-Thin ;
+  src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+ }
+  body {
+    font-family: Inter-Thin;    
+  }
+  .container{
+    position: relative;
+    width:700px;
+   margin: 0 auto;
+  }
+
+  .header {
+    text-align: center;
+    
+  }
+  .header h2{
+    color: #95CDE8;
+    font-family:Inter-Thin;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .container-banner {
+    position: relative;
+    width: 700px;
+    height: 160px;
+    background-color: #FFF2DC;
+  }
+  .text{
+    text-align: center;
+  }
+  .img2{
+ 
+  }

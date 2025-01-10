@@ -1,0 +1,86 @@
+
+.body{
+    padding: 0;
+    margin: 0;
+    height:100vh;
+   
+}
+
+.body-wrapper{
+    padding: 0;
+    margin: 0;
+    background-color: #cccc;
+    min-height: 100vh;
+}
+.brand{
+    display: flex;
+   justify-content: center;
+
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color:white;
+    text-align: flex-start;
+}
+
+.card-title{
+    font-weight: bold;
+
+
+}
+.card-text{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.card1{
+    background-color: white;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.primary-text{
+    color:blue;
+    font-weight: bold;
+    font-size: 16px;
+}
+.age{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.flex-column{
+    background-color: black;
+}
+
+.abc{
+    display: flex;
+    justify-content: flex-start;
+}
+.align-items-start {
+    align-items: flex-start!important;
+    display: flex;
+}
+.user-details{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+ }
+ .primary-texts{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+ }
+.personal-details{
+    color: blue;
+    font-size: 20px;
+
+}
