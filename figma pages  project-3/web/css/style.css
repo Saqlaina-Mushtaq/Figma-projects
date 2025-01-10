@@ -1,0 +1,109 @@
+body{
+    background-color: #e9e7e7;
+    color: #232323;
+    font-size: 15px;
+}
+.navbar{
+    padding: 40px 15px;
+}
+.navbar-nav .nav-link{
+    margin-right: 80px;
+    padding: 0;
+}
+.navbar-nav .nav-link:last-child{
+    margin-right: 0;
+}
+.navbar-nav .nav-link.active{
+    font-weight: 700;
+}
+.banner{
+    width: 100%;
+    background: url(../img/banner-bg.png) no-repeat center 0;
+    background-size: 100% auto;
+    padding-bottom: 150px;
+}
+.banner-thumbnail .img-fluid{
+    width: 100%;
+}
+
+.create-memory{
+    position: relative;
+}
+.left-image, .right-image{
+    position: absolute;
+}
+.left-image{
+    top: 3rem;
+    left: 0;
+}
+.right-image{
+    bottom: 3rem;
+    right: 0;
+}
+.content-section{
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width:1023px) {
+    .left-image img, .right-image img{
+       max-width: 300px;
+       
+    } 
+}
+@media (max-width: 767px) {
+    .left-image img, .right-image img{
+       max-width: 200px;
+       opacity: 0.65;
+    } 
+}
+.gallery{
+    width: 100%;
+    background: url(../img/img1.jpg) no-repeat center 0;
+    background-size: 100% auto;
+    padding-bottom: 150px;
+}
+.gallery .card-body {
+    background-color: rgb(238, 229, 229);
+}
+.places{
+    width: 100%;
+    background: url(../img/banner-bg.png) no-repeat center 0;
+    background-size: 100% auto;
+    padding-bottom: 150px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    height: 20vh;
+  }
+  .lorem-img .img-fluid{
+    width: 100%;
+}
+  .icon1{
+    display: flex;
+    justify-content: end;
+    font-size: 100px;
+  }
+  .choose-loc{
+    position: relative;
+}
+
+.choose-loc .right-image{
+    bottom: 0rem;
+    left: 0;
+}
+.winter-icon3{
+align-items: end;
+align-self:flex-end;
+
+}
+ .winter .win-img .img-fluid{
+    width:100%
+
+}
+.footer{
+    padding: 40px 15px;
+}
